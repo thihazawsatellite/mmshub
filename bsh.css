@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+header {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    color: #4CAF50; /* မြန်မာစိမ်းရောင် */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#user-status {
+    padding: 5px 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+#viber-cta {
+    background-color: #6a5acd; /* ခရမ်းရောင်အပြာ */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+/* Event List Style */
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+.event-card {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color 0.3s;
+}
+.event-card:hover {
+    background-color: #3a3a3a;
+}
+.event-card h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+}
