@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burmese Stream Hub</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+
+</head>
+<body>
+    <header>
+        <div id="logo">⚽ Stream Hub</div>
+        <nav>
+            <span id="user-status"></span>
+            
+            <a id="viber-cta" href="viber://chat?number=+95XXXXXXXXX" target="_blank" style="display: none;">
+                ✅ သက်တမ်းတိုးရန် Viber ဖြင့် ဆက်သွယ်ပါ။
+            </a>
+            
+            <button id="login-btn">Login / Logout</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="live-events">
+            <h2>ယနေ့ပွဲ (Live Stream)</h2>
+            <div id="live-list" class="event-list">
+                </div>
+        </section>
+
+        <section id="replay-events">
+            <h2>ပြီးခဲ့တာတွေ ပြန်ကြည့်နိုင်မဲ့ Replay</h2>
+            <div id="replay-list" class="event-list">
+                </div>
+        </section>
+        
+        <div id="video-player-container">
+            </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
