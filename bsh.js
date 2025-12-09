@@ -5,9 +5,9 @@
 // (မှတ်ချက်: Vercel မှာ Deploy လုပ်သောအခါ ဤနေရာတွင် Hardcode မလုပ်သင့်ဘဲ Environment Variables ကိုသာ သုံးပါ)
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAte6cN4fNysgMKCqRUUwYzR6w6Rhux8Yo", // <--- VERCEL ENV မှာ လာမယ့် Key
-    authDomain: "mmshub-fc4c1.firebaseapp.com",
-    projectId: "mmshub-fc4c1",
+    apiKey: "YOUR_FIREBASE_API_KEY", // <--- VERCEL ENV မှာ လာမယ့် Key
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    projectId: "YOUR_PROJECT_ID",
     // ... ကျန်တဲ့ config များ
 };
 
