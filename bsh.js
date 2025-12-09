@@ -6,7 +6,7 @@
 
 const firebaseConfig = {
     apiKey: "YOUR_FIREBASE_API_KEY", // <--- VERCEL ENV မှာ လာမယ့် Key
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    authDomain: "mmshub-fc4c1.firebaseapp.com",
     projectId: "YOUR_PROJECT_ID",
     // ... ကျန်တဲ့ config များ
 };
